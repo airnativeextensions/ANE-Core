@@ -1,3 +1,9 @@
+###### 2025.10.10 [v7.6.0]
+
+```
+feat(android): updates to the android core libraries
+```
+
 ###### 2025.09.24 [v7.5.5]
 
 ```
