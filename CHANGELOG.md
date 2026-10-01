@@ -1,3 +1,14 @@
+###### 2026.10.01 [v7.7.0]
+
+```
+feat(android,ios): add robust logging system with return path for native logs to air
+feat(ios): fre utils cleanup, documentation
+fix(ios): correct image utils transparency issue
+feat(ios): expand utils to cover more cases
+feat(ios): harden swizzling helper implementation - correct issue with openurl options
+feat(android): embed consumer proguard rules in ane jar
+```
+
 ###### 2025.10.10 [v7.6.0]
 
 ```
