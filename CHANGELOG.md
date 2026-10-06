@@ -1,3 +1,21 @@
+###### 2026.10.07 [v7.8.0]
+
+```
+This release significantly expands the Core extension's shared native infrastructure across Android, iOS, macOS, and Windows. It introduces a common Windows native library and utility layer, and provides a single ActionScript event handler for native logging across extensions. The base extension context has also been expanded, with additional logging and error-handling support on Android and iOS. On iOS, logging now uses the generic extension context, aligning it with the Android process.
+
+New extensions built on this shared library can deliver clearer native log output through the Windows dbgviewer.
+
+
+## Updates 
+
+feat(android,ios,macos,windows): implement single actionscript handler for native logging across all extensions
+feat(windows): created a common core native extension library for windows
+feat(windows): implemented a common utility and logging functionality for windows 
+feat(android,ios): additional logging and error handling functionality
+feat(ios): change logging to use new generic extension context similar to android process
+fix(android,ios): some corrections for logging support across extensions
+```
+
 ###### 2026.10.01 [v7.7.0]
 
 ```
