@@ -1,3 +1,15 @@
+###### 2026.11.12 [v7.9.0]
+
+```
+Add macOS application delegate and notification handling, forwarding supported launch, URL, and notification events through the shared delegate API. Expand Windows extension-context helpers, including HWND access, and update Windows logging events and extension-context support.
+
+### Updates 
+
+- feat(macos): implementing notifications and delegates for macos
+- feat(windows): additional helpers and added hwnd to extension context
+- feat(windows): updates to logging events and extension context
+```
+
 ###### 2026.10.07 [v7.8.0]
 
 ```
